@@ -1,0 +1,20 @@
+Am implementat aceasta tema folosind o clasa separata main pentru inceputul
+implementarii si clasa singleton Game, care reprezinta jocul in sine.
+
+Pentru fiecare tip de carte au fost create clase corespunzatoare, care sunt si
+mostenite intre ele acolo unde are sens. Astfel minionii au clasa lor, minionii
+cu abilitati speciale au SpecialMinion, etc. Fiecare clasa are ca enum
+proprietatile sale specifice.
+
+Jucatorii au clasa lor denumita player, care tine cont de statistica de
+castiguri.
+
+Pentru tot felul de actiuni am facut clase utility pentru toate categoriile
+(Debug, Gameplay, Statistics). Fiecare comanda stie sa isi scrie outputul
+la nevoie.
+
+Pentruy a putea face cast corect la carti, clasa de baza contine enum, care
+reprezinta tipul cartii, astfel se poate face cast.
+
+Tabla de joc am facut ca un array de arraylist, ca sa faca shiftarea automat
+cand o carte este scoasa din joc.
