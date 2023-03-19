@@ -13,5 +13,6 @@ Masa de joc este locul unde cărțile vor interacționa direct între ele. Ea po
 Rândurile 0 și 1 sunt asignate jucătorului 2, iar rândurile 2 și 3 sunt asignate jucătorului 1, conform imaginii de mai jos. Rândurile din față vor fi reprezentate de rândurile 1 și 2, iar rândurile din spate vor fi 0 si 3 (jucătorii vor fi așezați față în față). Totodată, eroii jucătorilor vor avea un loc special în care vor fi așezați de la începutul jocului.
 
 # Formatul cărților de joc
-Există mai multe tipuri de cărți pe care un jucător le poate deține, mai exact un jucător poate avea o carte de tipul minion sau o carte de tipul *environment*. De asemenea, fiecare jucător va avea o carte specială de tipul erou care îl va reprezenta în joc.
+Există mai multe tipuri de cărți pe care un jucător le poate deține, mai exact un jucător poate avea o carte de tipul minion sau o carte de tipul **environment**. De asemenea, fiecare jucător va avea o carte specială de tipul erou care îl va reprezenta în joc.
+
 
