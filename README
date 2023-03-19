@@ -13,7 +13,7 @@ Pentru tot felul de actiuni am facut clase utility pentru toate categoriile
 (Debug, Gameplay, Statistics). Fiecare comanda stie sa isi scrie outputul
 la nevoie.
 
-Pentruy a putea face cast corect la carti, clasa de baza contine enum, care
+Pentru a putea face cast corect la carti, clasa de baza contine enum, care
 reprezinta tipul cartii, astfel se poate face cast.
 
 Tabla de joc am facut ca un array de arraylist, ca sa faca shiftarea automat
