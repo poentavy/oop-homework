@@ -23,14 +23,14 @@ Există mai multe tipuri de cărți pe care un jucător le poate deține, mai ex
 
   Pe lângă aceste cărți, mai există și cărți care posedă abilități speciale. Aceste cărți sunt: Miraj, The Ripper, Disciple și The Cursed One. Abilitățile speciale ale   acestor cărți vor fi targetate către alte cărți pentru a activa următoarele efecte:
 
-  ####The Ripper
+  ###The Ripper
   Weak Knees: -2 atac pentru un minion din tabăra adversă.
 
-  ####Miraj
+  ###Miraj
   Skyjack: face swap între viața lui și viața unui minion din tabăra adversă.
 
-  ####The Cursed One
+  ###The Cursed One
   Shapeshift: face swap între viața unui minion din tabăra adversă și atacul aceluiași minion
 
-  ####Disciple
+  ###Disciple
   God's Plan: +2 viață pentru un minion din tabăra lui.
