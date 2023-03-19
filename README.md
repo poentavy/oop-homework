@@ -76,3 +76,25 @@ Earth Born: +1 viață pentru toate cărțile de pe rând.
   **General Kocioraw**
 
 Blood Thirst: +1 atac pentru toate cărțile de pe rând.
+
+
+# Pregătirea jocului
+
+Fiecare jucător își alege un deck, acesta fiind specificat de AI în input. Deck-ul ales de fiecare jucător va fi amestecat la începutul jocului, deoarece dorim ca jocul sa nu fie previzibil. Pentru a ne asigura că rezultatele vor fi deterministe, server-ul va trimite la input și un seed folosit ca parametru pentru procesul de amestecare.
+
+Server-ul alege câte un erou aleator pentru fiecare jucător, aceștia fiind specificați la input.
+
+Se alege un jucător care să înceapă prima rundă, fiind specificat la input.
+
+# Începutul unei runde
+La începutul fiecărei runde, ambii jucători primesc prima carte disponibilă din pachetul de cărți ales. Cartea primită de fiecare jucător va fi adăugată în “mâna” acestuia. Cartea primită este adăugată la sfârșitul listei de cărți din mână.
+
+Dacă nu mai există cărți în pachet, nu mai trebuie trasă nicio carte în mână.
+
+# Sfârșitul unei ture
+
+La finalul turei unui jucător, cărțile acestuia care au fost marcate ca fiind “frozen” sunt demarcate, întrucât acestea au stat o tura.
+
+Totodată, se verifică dacă ambii jucători și-au sfârșit turele în cadrul rundei curente. Dacă această condiție este adevarată, se trece la următoarea rundă si se aplică pașii descriși mai sus.
+
+Marcarea sfârșitului unei ture va fi precizată explicit de AI în input pentru jucătorul curent.
