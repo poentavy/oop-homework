@@ -16,8 +16,21 @@ Rândurile 0 și 1 sunt asignate jucătorului 2, iar rândurile 2 și 3 sunt asi
 Există mai multe tipuri de cărți pe care un jucător le poate deține, mai exact un jucător poate avea o carte de tipul minion sau o carte de tipul **environment**. De asemenea, fiecare jucător va avea o carte specială de tipul erou care îl va reprezenta în joc.
 
 
-### Cartea Minion
-Aceste cărți au la bază atribute precum: mana (intreg), health (intreg), attackDamage (intreg), description (String), colors (String/Enum) si name (String). Mana este costul pe care îl va avea o carte pentru a putea fi folosită în timpul jocului, health reprezintă viața unei cărți, attackDamage reprezintă punctele de atac cu care o carte poate ataca altă carte, description este o descriere scurta a cărții, colors reprezintă culorile care alcătuiesc design-ul grafic al cărții și name este numele cărții. Aceste atribute le veți primi la input, fiecare carte având un set de valori specifice care vor fi randomizate. Drept urmare, două cărți cu același nume pot avea proprietăți diferite.
+  ### Cartea Minion
+  Aceste cărți au la bază atribute precum: mana (intreg), health (intreg), attackDamage (intreg), description (String), colors (String/Enum) si name (String). Mana   este costul pe care îl va avea o carte pentru a putea fi folosită în timpul jocului, health reprezintă viața unei cărți, attackDamage reprezintă punctele de atac cu care o carte poate ataca altă carte, description este o descriere scurta a cărții, colors reprezintă culorile care alcătuiesc design-ul grafic al cărții și name este numele cărții. Aceste atribute le veți primi la input, fiecare carte având un set de valori specifice care vor fi randomizate. Drept urmare, două cărți cu același nume pot avea proprietăți diferite.
 
-Din acest tipar fac parte cărțile următoare: Sentinel, Berserker, Goliath și Warden.
+  Din acest tipar fac parte cărțile următoare: Sentinel, Berserker, Goliath și Warden.
 
+  Pe lângă aceste cărți, mai există și cărți care posedă abilități speciale. Aceste cărți sunt: Miraj, The Ripper, Disciple și The Cursed One. Abilitățile speciale ale   acestor cărți vor fi targetate către alte cărți pentru a activa următoarele efecte:
+
+  ####The Ripper
+  Weak Knees: -2 atac pentru un minion din tabăra adversă.
+
+  ####Miraj
+  Skyjack: face swap între viața lui și viața unui minion din tabăra adversă.
+
+  ####The Cursed One
+  Shapeshift: face swap între viața unui minion din tabăra adversă și atacul aceluiași minion
+
+  ####Disciple
+  God's Plan: +2 viață pentru un minion din tabăra lui.
