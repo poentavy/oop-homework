@@ -1,4 +1,10 @@
 # Introducere
-Tocmai v-ați făcut primul vostru start-up. Fiind foarte pasionați de jocuri și de genul fantasy, ideea voastră de 1M de dolari este crearea unui joc de cărți pe calculator. Norocul vă surâde pentru că studioul CD Projekt Red pare că nu mai este în vogă în materie de jocuri așa că le puteți fura jocul de cărți, mai exact Gwent. Deoarece doriți ca jocul vostru să nu fie o copie care va fi ușor uitată, ați adăugat mecanisme noi care vor fi asemănătoare cu alte jocuri de cărți populare. Drept urmare, jocul vostru preia cele mai bune lucruri din Hearthstone și din Gwent, fiind mult mai ușor de implementat, dar și de jucat. De asemenea, ca în orice joc de calitate, o să ne asigurăm că avem și o poveste pe cinste pentru personajele noastre create.
+Jocul preia cele mai bune lucruri din Hearthstone și din Gwent, fiind mult mai ușor de implementat, dar și de jucat. De asemenea, ca în orice joc de calitate, o să ne asigurăm că avem și o poveste pe cinste pentru personajele noastre create.
+
+
+# Introducere
+Dorim ca jocul nostru să poată fi jucat de doi jucători în sistem amical. Cu toate acestea, pentru că încă suntem în etapa de dezvoltare a jocului în cadrul studioului nostru OOP-Everything, vom folosi un AI care va simula cei doi jucători. AI-ul vă va da comenzile de joc în input, împreună cu server-ul care vă va trimite și comenzi de debugging. Comenzile de debugging sunt făcute pentru a verifica statutul jocului în diverse etape, astfel vom putea depana mai ușor problemele care pot apărea în cadrul implementării. De asemenea, server-ul vă solicită și date pe care le va folosi pentru a crea statistici, cum ar fi numărul de câștiguri ale unui jucător și numărul total de jocuri terminate de cei doi jucători. La output dorim să printăm orice informație ne cere server-ul sau orice eroare întâmpinăm în cadrul unei acțiuni invalide.
+
+
 
 
