@@ -1,3 +1,5 @@
+![banner_poo-01](https://user-images.githubusercontent.com/72265977/226167767-788dce98-aff7-4bd2-bf3b-38a57e939fd5.png)
+
 # Introducere
 Jocul preia cele mai bune lucruri din Hearthstone și din Gwent, fiind mult mai ușor de implementat, dar și de jucat. De asemenea, ca în orice joc de calitate, o să ne asigurăm că avem și o poveste pe cinste pentru personajele noastre create.
 
