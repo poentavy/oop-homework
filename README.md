@@ -48,10 +48,31 @@ God's Plan: +2 viață pentru un minion din tabăra lui.
   
 Scade cu 1 viața tuturor minionilor de pe rând.
 
-  *Winterfell**
+  **Winterfell**
   
 Toate cărțile de pe rând stau o tură.
 
   **Heart Hound**
 
 Se fură minionul adversarului cu cea mai mare viață de pe rând și se pune pe rândul “oglindit” aferent jucătorului.
+
+
+  ### Cartea Erou
+  
+  Există 4 eroi pe care un jucator îi poate avea. Fiecare erou are următoarele atribute: mana, description, colors și name. Fiecare erou are parametrul health fixat la 30. Dacă eroul ajunge în timpul jocului să fie atacat și să aibe viața 0, jocul se va opri și va câștiga atacatorul. Eroul fiecărui jucător este specificat în input la începutul jocului. Totodată, ei au abilități speciale care sunt declanșate pe un rând:
+
+  **Lord Royce**
+  
+Sub-Zero: îngheață cartea cu cel mai mare atac de pe rând.
+
+  *Empress Thorina**
+
+Low Blow: distruge cartea cu cea mai mare viață de pe rând.
+
+  **King Mudface**
+
+Earth Born: +1 viață pentru toate cărțile de pe rând.
+
+  **General Kocioraw**
+
+Blood Thirst: +1 atac pentru toate cărțile de pe rând.
