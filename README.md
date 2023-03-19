@@ -38,3 +38,19 @@ Shapeshift: face swap între viața unui minion din tabăra adversă și atacul 
  **Disciple**
  
 God's Plan: +2 viață pentru un minion din tabăra lui.
+
+
+  ###Cartea Environment
+  Aceste cărți au la bază atribute precum: mana, description, colors și name. Ele reprezintă efecte care pot fi aplicate terenului de joc, în povestea noastră fiind efecte naturale ale unei lumi din povești. Fiecare efect ia în considerare toate cărțile de pe rândul targetat. Cărțile de tip environment sunt următoarele:
+
+  **Firestorm**
+  
+Scade cu 1 viața tuturor minionilor de pe rând.
+
+  *Winterfell**
+  
+Toate cărțile de pe rând stau o tură.
+
+  **Heart Hound**
+
+Se fură minionul adversarului cu cea mai mare viață de pe rând și se pune pe rândul “oglindit” aferent jucătorului.
