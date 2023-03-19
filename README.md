@@ -65,7 +65,7 @@ Se fură minionul adversarului cu cea mai mare viață de pe rând și se pune p
   
 Sub-Zero: îngheață cartea cu cel mai mare atac de pe rând.
 
-  *Empress Thorina**
+  **Empress Thorina**
 
 Low Blow: distruge cartea cu cea mai mare viață de pe rând.
 
